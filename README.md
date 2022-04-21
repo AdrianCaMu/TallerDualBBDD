@@ -1,4 +1,4 @@
-# ⌨ Proyecto de Base de Datos para Formacion Dual (1º Desarrollo de Aplicaciones Multiplataforma) 🖥
+# ⌨ Proyecto de Base de Datos para Formacion Dual en NTT DATA (1º Desarrollo de Aplicaciones Multiplataforma) 🖥
 
 _Este repositorio tiene como objetivo recopilar los scrypts y documentos realizados en la formación dual de NTT DATA en 1º de Grado Superior de Desarrollo de Aplicaciones Multiplataforma estudiado en IES Pablo Picasso (Málaga)._
 
