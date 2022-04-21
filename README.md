@@ -10,11 +10,11 @@ Diseño de BD Entidad-Relacion: Diagrams.net
 Creación de BD: MySQL Workbench 8.0
 
 ## 🧑‍💻 Colaboradores ✍️💪
-Gabriel Morales Martinez
-Angel Diaz Avilés
-Franco Emanuel Mancinelli
-Samuel Calderon Gonzalez
-Adrián Cámara Muñoz 
+* [Gabriel Morales Martinez]
+* [Angel Diaz Avilés]
+* [Franco Emanuel Mancinelli]
+* [Samuel Calderon Gonzalez]
+* [Adrián Cámara Muñoz]
 
 ---
 ⌨️ por [Adrián Cámara Muñoz](https://twitter.com/adriancamara740) 💛
