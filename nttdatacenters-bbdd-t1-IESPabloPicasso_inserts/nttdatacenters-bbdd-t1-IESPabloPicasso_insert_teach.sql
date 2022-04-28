@@ -1,5 +1,7 @@
+-- Utilización de la base de datos Education
 use education;
 
+-- Inserción del Enseña
 Insert into teach(trainer, grade)
 values
 	('11111111A', '1'),

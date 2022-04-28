@@ -1,5 +1,7 @@
+-- Utilización de la base de datos Education
 use education;
 
+-- Inserción de los Entrenadores
 Insert into trainer(nif, name, email, phone_number, company)
 values
 	('11111111A', 'Juan Alejandro Tellez Rubio', 'juan.alejandro.tellez.rubio@everis.nttdata.com', '611111111', 1),

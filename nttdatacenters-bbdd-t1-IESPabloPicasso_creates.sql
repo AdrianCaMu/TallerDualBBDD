@@ -1,7 +1,15 @@
+-- ----------------------------------------------------
+-- Autor       : IES Pablo Picasso
+-- Descripción : Trabajo Grupal - Script PL/SQL
+-- ----------------------------------------------------
+
+-- Creación de base de datos si no existe
 CREATE DATABASE IF NOT EXISTS Education;
 
-use Education;
+-- Utilización de la base de datos Education
+USE Education;
 
+-- Creación de tabla para Compañias
 CREATE TABLE Company (
     company_id int primary key auto_increment,
     name varchar(30) not null,
@@ -9,6 +17,7 @@ CREATE TABLE Company (
     field varchar(40)
 );
 
+-- Creación de tabla para Entrenador
 CREATE TABLE Trainer (
     nif char(9) primary key,
     name varchar(30) not null,
@@ -18,11 +27,13 @@ CREATE TABLE Trainer (
     foreign key (company) references Company(company_id)
 );
 
+-- Creación de la tabla Grado
 CREATE TABLE Grade (
     grade_id char(10) primary key,
     name varchar(30) not null check (name in ('first', 'second'))
 );
 
+-- Creación de la tabla Enseña
 create table Teach (
 	trainer char(9),
     grade char(10),
@@ -31,6 +42,7 @@ create table Teach (
     constraint fk_grade foreign key (grade) references Grade(grade_id)
 );
 
+-- Creación de la tabla Asignatura
 CREATE TABLE Subject (
     subject_id char(10) primary key,
     name varchar(80) not null,
@@ -38,6 +50,7 @@ CREATE TABLE Subject (
     foreign key (grade) references Grade(grade_id)
 );
 
+-- Creación de la tabla Instituto
 CREATE TABLE High_School (
     high_school_id char(10) primary key,
     name varchar(30) not null,
@@ -46,6 +59,7 @@ CREATE TABLE High_School (
     type varchar(20) check (type in ('public', 'private'))
 );
 
+-- Creación de la tabla Alumnos
 CREATE TABLE Students (
     nif char(9) primary key,
     name varchar(30) not null,
@@ -55,6 +69,7 @@ CREATE TABLE Students (
     foreign key (high_school) references High_School(high_school_id)
 );
 
+-- Creación de la tabla Cursos
 CREATE TABLE Courses (
 	student_nif char(9),
     subject_id char(10),
@@ -64,6 +79,7 @@ CREATE TABLE Courses (
     constraint fk_module foreign key (subject_id) references Subject(subject_id)
 );
 
+-- Creación de la tabla Horarios
 CREATE TABLE Schedules (
 	high_school_id char(10),
     grade_id char(10),
