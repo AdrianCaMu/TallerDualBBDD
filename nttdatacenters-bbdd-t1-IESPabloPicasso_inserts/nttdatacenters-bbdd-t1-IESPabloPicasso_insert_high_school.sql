@@ -1,5 +1,7 @@
+-- Utilización de la base de datos Education
 use education;
 
+-- Inserción de los Institutos
 insert into high_school(high_school_id, name, province, address, type)
 values
 	('1', 'IES PABLO PICASSO', 'MALAGA', 'CALLE NOLOSE', 'public'),

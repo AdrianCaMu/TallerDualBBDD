@@ -1,5 +1,7 @@
+-- Utilización de la base de datos Education
 use education;
 
+-- Inserción de las Asignaturas
 insert into subject(subject_id, name, grade)
 values
 	('0484', 'Bases de Datos', '1'),

@@ -1,5 +1,7 @@
+-- Utilización de la base de datos Education
 use education;
 
+-- Inserción de los Estudiantes
 insert into students(nif, name, email, phone_number, high_school)
 values
 	('55555555E', 'Pedro Perez', 'pedroperez@gmail.com', '655555555', '1'),
