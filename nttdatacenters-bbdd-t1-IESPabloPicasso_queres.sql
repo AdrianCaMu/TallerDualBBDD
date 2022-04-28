@@ -1,7 +1,6 @@
 -- Utilización de la base de datos Education.
 USE Education;
 
-
 -- ----------------------------- --
 -- Creación de consultas SIMPLES --
 -- ----------------------------- --
@@ -33,7 +32,6 @@ where grade = '1';
 select * from students
 where high_school != 4;
 
-
 -- ---------------------------- --
 -- Creación de consultas MEDIAS --
 -- ---------------------------- --
@@ -55,7 +53,6 @@ group by grade_id;
 select *, datediff(end_date, start_date) 'Duración de días del curso'
 from schedules
 order by grade_id;
-
 
 -- ------------------------------- --
 -- Creación de consultas COMPLEJAS --
