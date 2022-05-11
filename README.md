@@ -10,10 +10,10 @@ Diseño y creación de una Base de datos para gestionar la formación dual de la
 * Creación de BD: MySQL Workbench 8.0
 
 ## 🧑‍💻 Colaboradores ✍️💪
-* Gabriel Morales Martinez
-* Angel Diaz Avilés
+* Gabriel Morales Martínez
+* Ángel Diaz Avilés
 * Franco Emanuel Mancinelli
-* Samuel Calderon Gonzalez
+* Samuel Calderón González
 * Adrián Cámara Muñoz
 
 ---
