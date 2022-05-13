@@ -61,7 +61,7 @@ order by grade_id;
 -- Consulta el nombre y horario de todos los intitutos de la provincia de Málaga, cuando tengan clase los miércoles.
 select high_school.name 'Instituto',  schedules.days 'Horario'
 from schedules
-inner join high_school on schedules.high_school_id = high_school.high_school_id
+right join high_school on schedules.high_school_id = high_school.high_school_id
 where schedules.days like '%Miercoles%' and high_school.province = 'Malaga';
 
 -- Consulta que muestra el nombre de todos los estudiantes que han sacado más de un 5 en la nota del curso.
